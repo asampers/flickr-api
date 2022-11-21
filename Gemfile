@@ -27,6 +27,12 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+#Use Flickr gem to access API
+gem 'flickr', '~> 2.1'
+
+#Use Figaro gem to hold API keys
+gem "figaro"
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
