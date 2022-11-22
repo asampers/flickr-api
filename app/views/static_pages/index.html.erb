@@ -1,0 +1,8 @@
+<h1>View Photos</h1>
+
+<%= render partial: 'search_form' %>
+
+
+<% @photos.each do |photo| %>
+  <img src="<%= Flickr.url_n(photo) %>"/>
+<% end %>  

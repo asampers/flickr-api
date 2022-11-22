@@ -1,0 +1,6 @@
+<%= form_with url: 'static_pages#index', method: :get do |form| %>
+  <%= form.label :user_id, 'Enter user id' %>
+  <%= form.text_field :user_id %>
+
+  <%= form.submit 'Display Photos' %>
+<% end %>
