@@ -3,8 +3,8 @@
 <%= render 'search_form' %>
 
 <% if @photos %>
-  <h2>Flickr API Searcher is displaying public photos uploaded by <%= @user.username %>. </p>
+  <h2>Flickr API Searcher is displaying public photos uploaded by <%= @user.username %>. </h2>
   <% @photos.each do |photo| %>
-    <img src="<%= Flickr.url_n(photo) %>"/>
+    <img src="<%= Flickr.url_n(photo) %>">
   <% end %>  
 <% end %>  
