@@ -11,7 +11,7 @@ class StaticPagesController < ApplicationController
       end  
     rescue StandardError => e
       flash[:alert] = "Oops, that doesn't work. Please try again..."
-      redirect_to root_path
+      #redirect_to root_path
     end    
   end
 
